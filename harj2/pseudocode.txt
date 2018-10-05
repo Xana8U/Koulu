@@ -1,0 +1,19 @@
+create variables a, b, c
+create array of size 3
+
+if a is smaller than b and a is smaller than c make arrays first element value of a 
+if that wasnt true compare if b is smaller than a and b is smaller than c make first element of array b
+if that wasnt true compare if c is smaller than a and c is smaller than b make first element of array compare
+
+the variable with the smallest number in the previous check will be assigned a really small value
+
+compare if a is larger than first element in array if it is make second element in array a
+if previous wasnt true compare if b is larger than first element in array if it is make second element in array b
+if previous wasnt true compare if c is larger than first element in array if it is make second element in array c
+
+the variable with the number larger than first element in array will be assigned a really small value 
+
+compare if a is larger than the second element in array if it is make third element in array a
+if previous wasnt true compare if b is larger than second element in array if it is make third element b
+if previous wasnt true compare if c is larger than second element in array if it is make third element c 
+if none above are true make the second element in array the third element in array and repeat previous if statement
